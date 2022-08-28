@@ -6,6 +6,9 @@ from Math.Bulbswitcher import buld_switcher
 from Math.Codec import Codec
 from Math.plaindrone import isPalindrome
 from Math.plusone import plusOne
+from Math.poorpigs import poorPigs
+from Math.poweroftwo import isPowerOfTwo
+from Math.missing_number import missingNumber
 def buy_and_sell_stocks(prices):
     print(maxProfit(prices))
 
@@ -31,7 +34,15 @@ def palindrone(number):
 def plus_one(number):
     print(plusOne(number))
 
+def poor_pigs_count(buckets, minutesToDie, minutesToTest):
+    print(poorPigs(buckets, minutesToDie, minutesToTest))
+
+def PowerOfTwo(n):
+    print(isPowerOfTwo(n))
+
+def missing_number_output(nums):
+    print(missingNumber(nums))
 
 if __name__ == '__main__':
-    plus_one([9,9,9])
+    PowerOfTwo(125)
 

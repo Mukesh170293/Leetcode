@@ -9,6 +9,7 @@ from Math.plusone import plusOne
 from Math.poorpigs import poorPigs
 from Math.poweroftwo import isPowerOfTwo
 from Math.missing_number import missingNumber
+from Backtracking.permuatation import permute
 def buy_and_sell_stocks(prices):
     print(maxProfit(prices))
 
@@ -43,6 +44,9 @@ def PowerOfTwo(n):
 def missing_number_output(nums):
     print(missingNumber(nums))
 
+def permute_list(nums):
+    print(permute(nums))
+
 if __name__ == '__main__':
-    PowerOfTwo(125)
+    permute_list([1,2,3,4])
 

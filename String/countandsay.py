@@ -10,7 +10,7 @@ class Solution(object):
         result = ''
         count = 1
         for i in range(len(prev)):
-            if i==len(prev)-1 or prev[i] != prev[i+1]:
+            if i == len(prev)-1 or prev[i] != prev[i+1]:
                 result += str(count) + prev[i]
                 count = 1
             else:

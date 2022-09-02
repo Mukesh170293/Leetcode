@@ -2,9 +2,9 @@ class Solution(object):
    def numDecodings(self, s):
       n = len(s)
       dp = [0 for i in range(n)]
-      if s[0]!='0':
-         dp[0]=1
-      for i in range(1,n):
+      if s[0] != '0':
+         dp[0] = 1
+      for i in range(1, n):
          x = int(s[i])
          y = int(s[i-1:i+1])
          if x>=1 and x<=9:
